@@ -27,8 +27,8 @@ namespace GitUp.Controllers
         public IEnumerable<WeatherForecast> Get()
         {
             var rng = new Random();
-            Test();
             TestStr();
+            var gitInt = TestInt();
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateTime.Now.AddDays(index),
@@ -38,14 +38,14 @@ namespace GitUp.Controllers
             .ToArray();
         }
 
-        public void Test()
-        {
-            string gitStake = "git test3";
-            
-        }
         public string TestStr()
         {
             return "1235";
+        }
+
+        public int TestInt()
+        {
+            return 56;
         }
     }
 }
