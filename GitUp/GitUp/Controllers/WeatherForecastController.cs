@@ -27,6 +27,7 @@ namespace GitUp.Controllers
         public IEnumerable<WeatherForecast> Get()
         {
             var gitTest1 = "gitgittest";
+            var gitTest2 = "gitTest2";
             var rng = new Random();
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
