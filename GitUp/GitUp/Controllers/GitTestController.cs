@@ -11,6 +11,5 @@ namespace GitUp.Controllers
     [ApiController]
     public class GitTestController : ControllerBase
     {
-        //h1
     }
 }
