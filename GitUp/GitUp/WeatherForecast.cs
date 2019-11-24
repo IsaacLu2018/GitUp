@@ -12,5 +12,6 @@ namespace GitUp
 
         public string Summary { get; set; }
         public string GitFeature { get; set; }
+        public string Git1 { get; set; }
     }
 }
