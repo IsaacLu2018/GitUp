@@ -14,5 +14,6 @@ namespace GitUp
         public string GitFeature { get; set; }
         public string Git1 { get; set; }
         public string Git2 { get; set; }
+        // revert hhh
     }
 }
